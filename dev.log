@@ -1,0 +1,41 @@
+npm notice run train@0.0.0 dev
+npm notice run vite
+
+  [32m[1mVITE[22m v8.3.1[39m  [2mready in [0m[1m1145[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m8:05:35 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/tokens.css[22m
+[2m8:05:44 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/hero.css[22m
+[2m8:05:44 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] postcss-import: C:\Users\Yoga parwezh A\train\src\styles\hero.css:272:1: Unexpected }[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/Yoga parwezh A/train/src/styles/hero.css[39m:272:0
+[33m  270 |    font-size: 14px;
+  271 |    font-variant-numeric: tabular-nums;
+  272 |  }
+      |  ^
+  273 |  
+  274 |  .hero__foot {[39m
+      at Input.error (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unexpectedClose (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\parser.js:597:22)
+      at Parser.end (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\parser.js:337:12)
+      at Parser.parse (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\parser.js:466:16)
+      at parse (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\parse.js:11:12)
+      at get root (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\no-work-result.js:43:14)
+      at Result.get [as root] (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\no-work-result.js:76:21)
+      at loadImportContent (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/postcss-import.js:397:33)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/postcss-import.js:376:20)
+      at async parseStyles (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/postcss-import.js:328:4)
+      at async Object.Once (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/postcss-import.js:453:20)
+      at async LazyResult.runAsync (C:\Users\Yoga parwezh A\train\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:30251:19)
+      at async compilePostCSS (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:30235:6)
+      at async compileCSS (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:30165:26)
+      at async TransformPluginContext.handler (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:29636:47)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:8515:14)
+      at async loadAndTransform (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:19998:26)
+      at async viteTransformMiddleware (file:///C:/Users/Yoga%20parwezh%20A/train/node_modules/vite/dist/node/chunks/node.js:20217:20)
+[2m8:05:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/hero.css[22m
+[2m8:05:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/tokens.css[22m
